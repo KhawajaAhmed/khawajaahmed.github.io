@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 #yaml file
-.windsurf_deployment.yaml
+windsurf_deployment.yaml
