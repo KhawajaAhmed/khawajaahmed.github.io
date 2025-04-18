@@ -9,50 +9,50 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
-      title: "Azure Data Pipeline Optimization",
-      description: "Developed and optimized Azure data pipelines that reduced KPI computation time by 40%, improving reporting efficiency for business stakeholders.",
+      title: "Healthcare Revenue Pipeline",
+      description: "Architected an Azure based healthcare revenue cycle management data pipeline processing 10K+ daily records, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue.",
       image: "/project1.jpg",
-      tags: ["Azure", "PySpark", "ETL", "Data Engineering"],
+      tags: ["Azure", "PySpark", "ETL", "Healthcare Analytics"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Data Reliability System",
-      description: "Built a comprehensive data validation and monitoring system that boosted data reliability by 35%, ensuring accurate analytics and reporting.",
+      title: "PySpark Validation Framework",
+      description: "Established PySpark validation frameworks that flagged 5K+ monthly anomalies, improving downstream analytics reliability by 35% and ensuring data quality.",
       image: "/project2.jpg",
-      tags: ["Python", "SQL", "Data Quality", "Monitoring"],
+      tags: ["PySpark", "Data Validation", "Analytics", "Data Quality"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Machine Learning Model Deployment",
-      description: "Trained and deployed machine learning models that outperformed baselines by 11%, providing actionable predictions for business decision-making.",
+      title: "Reinforcement Learning System",
+      description: "Spearheaded the development of a reinforcement learning system that outperformed baseline models by ~11% with a memory-efficient architecture.",
       image: "/project3.jpg",
-      tags: ["Machine Learning", "Python", "AI", "Predictive Modeling"],
+      tags: ["Reinforcement Learning", "Python", "AI", "Model Optimization"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Databricks ETL Framework",
-      description: "Designed a scalable ETL framework using Databricks that processed terabytes of data efficiently, enabling real-time analytics capabilities.",
+      title: "Sports Analytics Platform",
+      description: "Built an automated sports analytics platform using Python and pandas that integrated 5+ data sources, delivering insights that improved team performance by 23% across 12+ competitions.",
       image: "/project4.jpg",
-      tags: ["Databricks", "PySpark", "Big Data", "ETL"],
+      tags: ["Python", "pandas", "Sports Analytics", "Data Integration"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Created interactive dashboards using Tableau that transformed complex data into clear visualizations, helping stakeholders make data-driven decisions.",
+      title: "Agtech Agricultural Pipeline",
+      description: "Engineered a scalable ETL pipeline that ingested and normalized IoT sensor data from 200+ field devices using Python, SQL, and Apache Airflow, enabling real-time crop yield predictions.",
       image: "/project5.jpg",
-      tags: ["Tableau", "Data Visualization", "Analytics", "Dashboard Design"],
+      tags: ["Python", "SQL", "Apache Airflow", "IoT", "ETL"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Cloud Infrastructure Optimization",
-      description: "Optimized cloud infrastructure and data workflows, resulting in 30% cost reduction while maintaining performance and reliability standards.",
+      title: "Database Query Optimization",
+      description: "Optimized database queries with indexing and partitioning strategies, reducing average query latency from 5s to 300ms and supporting near real-time dashboard visualizations.",
       image: "/project6.jpg",
-      tags: ["Azure", "Cloud Computing", "Infrastructure", "Optimization"],
+      tags: ["SQL", "Database Optimization", "Indexing", "Partitioning"],
       github: "#",
       demo: "#"
     }
