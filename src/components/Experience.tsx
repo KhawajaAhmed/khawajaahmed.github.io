@@ -57,7 +57,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <AnimatedItem 
               key={index}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 md:p-8"
+              className="glass-effect bg-white/50 dark:bg-gray-800/40 rounded-lg shadow-lg p-6 md:p-8"
               delay={0.2 * index}
               direction={index % 2 === 0 ? 'left' : 'right'}
             >

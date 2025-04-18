@@ -39,7 +39,7 @@ const Skills = () => {
           {technicalSkills.map((skillGroup, index) => (
             <AnimatedItem 
               key={index} 
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+              className="glass-effect bg-white/50 dark:bg-gray-800/40 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
               delay={0.1 * (index + 1)}
               direction={index % 2 === 0 ? 'up' : 'down'}
             >
@@ -48,7 +48,7 @@ const Skills = () => {
                 {skillGroup.skills.map((skill, skillIndex) => (
                   <motion.span 
                     key={skillIndex}
-                    className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm"
+                    className="glass-effect bg-gray-100/70 dark:bg-gray-700/60 px-3 py-1 rounded-full text-sm dark:text-gray-200"
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ 
