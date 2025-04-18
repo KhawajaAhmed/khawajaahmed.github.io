@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import ImagePlaceholder from './ImagePlaceholder';
 import { motion } from 'framer-motion';
 import { smoothScrollTo } from '@/utils/smoothScroll';
@@ -56,14 +57,14 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl">
-            <ImagePlaceholder
-              width={320}
-              height={320}
-              text="Profile Photo"
-              bgColor="#3B82F6"
-              textColor="#FFFFFF"
-              style={{ width: '100%', height: '100%', borderRadius: '50%' }}
-              className="absolute inset-0"
+            <Image
+              src="/profile_photo.jpg"
+              alt="Khawaja's Profile Photo"
+              fill
+              sizes="(max-width: 768px) 256px, 320px"
+              priority
+              className="object-cover"
+              style={{ objectPosition: 'center' }}
             />
           </div>
         </motion.div>

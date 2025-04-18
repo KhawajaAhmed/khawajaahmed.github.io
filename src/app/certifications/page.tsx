@@ -11,10 +11,19 @@ const Certifications = () => {
 
   const certificates = [
     {
+      id: 'sql-intermediate',
+      title: 'SQL Intermediate',
+      issuer: 'Professional Certificate',
+      date: 'April 2025',
+      image: '/certificates/sql_intermediate certificate-1.png',
+      skills: ['SQL', 'Database', 'Data Management','Subqueries and Nested Queries','Grouping and Aggregating Data','Joins'],
+      description: 'Intermediate-level SQL skills for database management and complex queries.'
+    },
+    {
       id: 'machine-learning',
       title: 'Introduction to Machine Learning',
       issuer: 'Kaggle',
-      date: 'January 2023',
+      date: 'June 2024',
       image: '/certificates/Khawaja Hussain Ahmed - Intro to Machine Learning.png',
       skills: ['Machine Learning', 'Python', 'Data Science'],
       description: 'Comprehensive introduction to machine learning concepts and techniques.'
@@ -23,7 +32,7 @@ const Certifications = () => {
       id: 'pandas',
       title: 'Pandas',
       issuer: 'Kaggle',
-      date: 'December 2022',
+      date: 'July 2024',
       image: '/certificates/Khawaja Hussain Ahmed - Pandas.png',
       skills: ['Pandas', 'Python', 'Data Analysis'],
       description: 'Advanced data manipulation and analysis using the Pandas library in Python.'
@@ -32,20 +41,12 @@ const Certifications = () => {
       id: 'software-engineer-intern',
       title: 'Software Engineer Intern',
       issuer: 'Professional Certificate',
-      date: 'August 2023',
-      image: '/certificates/software_engineer_intern certificate.pdf',
+      date: 'March 2025',
+      image: '/certificates/software_engineer_intern certificate-1.png',
       skills: ['Software Engineering', 'Programming', 'Development'],
       description: 'Certification for completing a software engineering internship program.'
-    },
-    {
-      id: 'sql-intermediate',
-      title: 'SQL Intermediate',
-      issuer: 'Professional Certificate',
-      date: 'June 2023',
-      image: '/certificates/sql_intermediate certificate.pdf',
-      skills: ['SQL', 'Database', 'Data Management'],
-      description: 'Intermediate-level SQL skills for database management and complex queries.'
     }
+    
   ];
 
   const handleCertificateClick = (id: string) => {
@@ -103,21 +104,13 @@ const Certifications = () => {
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <div className="relative h-48 w-full bg-blue-100 dark:bg-blue-900">
-                  {certificate.image.endsWith('.png') ? (
-                    <Image
-                      src={certificate.image}
-                      alt={certificate.title}
-                      fill
-                      style={{ objectFit: 'contain' }}
-                      className="p-4"
-                    />
-                  ) : (
-                    <div className="flex items-center justify-center h-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                    </div>
-                  )}
+                  <Image
+                    src={certificate.image}
+                    alt={certificate.title}
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    className="p-4"
+                  />
                 </div>
                 
                 <div className="p-6">
