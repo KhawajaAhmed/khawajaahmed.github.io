@@ -39,15 +39,15 @@ const About = () => {
             </AnimatedItem>
           </div>
           
-          <AnimatedItem className="glass-effect bg-white/50 dark:bg-gray-800/40 p-6 rounded-lg shadow-xl h-full" delay={0.3} direction="right">
+          <AnimatedItem className="glass-effect bg-white/50 dark:bg-gray-800/40 p-4 sm:p-6 rounded-lg shadow-xl h-full" delay={0.3} direction="right">
             <div className="pt-4">
               <h4 className="text-xl font-semibold mb-3">Education</h4>
               <div className="space-y-4">
-                <div className="border-l-4 border-blue-600 pl-4">
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
                   <p className="font-medium">BA in Computer Science</p>
                   <p className="text-gray-600 dark:text-gray-400">DePauw University, Senior</p>
                 </div>
-                <div className="border-l-4 border-blue-600 pl-4">
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
                   <p className="font-medium">Minor in Data Science</p>
                   <p className="text-gray-600 dark:text-gray-400">DePauw University</p>
                 </div>
@@ -57,22 +57,22 @@ const About = () => {
             
             <div className="pt-8">
               <h4 className="text-xl font-semibold mb-3">Skills Highlight</h4>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="font-medium">Data Engineering</p>
-                  <p className="text-gray-600 dark:text-gray-400">ETL, Data Pipelines, Azure</p>
+              <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4">
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
+                  <p className="font-medium text-sm sm:text-base">Data Engineering</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">ETL, Data Pipelines, Azure</p>
                 </div>
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="font-medium">Data Science</p>
-                  <p className="text-gray-600 dark:text-gray-400">ML Models, Analytics, Visualization</p>
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
+                  <p className="font-medium text-sm sm:text-base">Data Science</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">ML Models, Analytics, Visualization</p>
                 </div>
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="font-medium">Programming</p>
-                  <p className="text-gray-600 dark:text-gray-400">Python, SQL, PySpark, JavaScript</p>
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
+                  <p className="font-medium text-sm sm:text-base">Programming</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">Python, SQL, PySpark, JavaScript</p>
                 </div>
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="font-medium">Tools</p>
-                  <p className="text-gray-600 dark:text-gray-400">Git, Docker, Jupyter, Power BI</p>
+                <div className="border-l-4 border-blue-600 pl-2 sm:pl-4">
+                  <p className="font-medium text-sm sm:text-base">Tools</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">Git, Docker, Jupyter, Power BI</p>
                 </div>
               </div>
             </div>

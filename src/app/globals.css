@@ -6,11 +6,14 @@ html {
   /* Disable default smooth scrolling since we're using custom implementation */
   scroll-behavior: auto;
   -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Responsive font sizes */
 html {
   font-size: 16px;
+  max-width: 100vw;
 }
 
 @media (max-width: 768px) {
@@ -21,6 +24,8 @@ html {
   /* Add padding to the bottom of the page for the mobile navigation */
   body {
     padding-bottom: 70px;
+    overflow-x: hidden;
+    width: 100%;
   }
 }
 
