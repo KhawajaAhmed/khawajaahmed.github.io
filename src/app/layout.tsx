@@ -14,7 +14,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CS & Data Science Portfolio",
+  title: "Khawaja's Portfolio",
   description: "Personal portfolio showcasing Computer Science and Data Science projects",
 };
 
