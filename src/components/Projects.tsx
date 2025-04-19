@@ -9,26 +9,34 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
+      title: "Agtech Agricultural Pipeline",
+      description: "Engineered a scalable ETL pipeline that ingested and normalized IoT sensor data from 200+ field devices using Python, SQL, and Apache Airflow, enabling real-time crop yield predictions.",
+      image: "/agricultural_dashboard.png",
+      tags: ["Python","pandas","numpy","SQL","Tableau","Data Visualization" ,"EDA", "ETL","Data Analysis","API Integration"],
+      github: "https://github.com/KhawajaAhmed/Agtech-Agricultural-Data-Pipeline",
+      demo: "#"
+    },
+    {
+      title: "Statistical Analysis of Graduate Debt",
+      description: "Conducted in-depth statistical analysis comparing average debt of graduates from small private universities with large private universities using R/RStudio, revealing significant patterns in student loan burdens.",
+      image: "/project2.jpg",
+      tags: ["R", "Hypothesis Testing", "Statistical Analysis", "Data Visualization", "Summary Statistics"],
+      github: "https://github.com/KhawajaAhmed/R_University_Debt_Study",
+      demo: "#"
+    },
+    {
+      title: "Reinforcement Learning Game",
+      description: "Developed a game with an AI opponent that progressively improves using reinforcement learning. Players take turns removing 1-4 sticks from a pile, with the player who takes the last stick winning. The AI agent learns optimal strategies through gameplay.",
+      image: "/project3.jpg",
+      tags: ["Artificial Intelligence", "Python","Game Development", "Q-Learning"],
+      github: "https://github.com/KhawajaAhmed/Nims-RL-Game",
+      demo: "#"
+    },
+    {
       title: "Healthcare Revenue Pipeline",
       description: "Architected an Azure based healthcare revenue cycle management data pipeline processing 10K+ daily records, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue.",
       image: "/project1.jpg",
       tags: ["Azure", "PySpark", "ETL", "Healthcare Analytics"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "PySpark Validation Framework",
-      description: "Established PySpark validation frameworks that flagged 5K+ monthly anomalies, improving downstream analytics reliability by 35% and ensuring data quality.",
-      image: "/project2.jpg",
-      tags: ["PySpark", "Data Validation", "Analytics", "Data Quality"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Reinforcement Learning System",
-      description: "Spearheaded the development of a reinforcement learning system that outperformed baseline models by ~11% with a memory-efficient architecture.",
-      image: "/project3.jpg",
-      tags: ["Reinforcement Learning", "Python", "AI", "Model Optimization"],
       github: "#",
       demo: "#"
     },
@@ -38,14 +46,6 @@ const Projects = () => {
       image: "/project4.jpg",
       tags: ["Python", "pandas", "Sports Analytics", "Data Integration"],
       github: "#",
-      demo: "#"
-    },
-    {
-      title: "Agtech Agricultural Pipeline",
-      description: "Engineered a scalable ETL pipeline that ingested and normalized IoT sensor data from 200+ field devices using Python, SQL, and Apache Airflow, enabling real-time crop yield predictions.",
-      image: "/agricultural_dashboard.png",
-      tags: ["Python", "SQL", "Apache Airflow", "IoT", "ETL"],
-      github: "https://github.com/KhawajaAhmed/Agtech-Agricultural-Data-Pipeline",
       demo: "#"
     },
     {
