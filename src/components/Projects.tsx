@@ -19,7 +19,7 @@ const Projects = () => {
     {
       title: "Statistical Analysis of Graduate Debt",
       description: "Conducted in-depth statistical analysis comparing average debt of graduates from small private universities with large private universities using R/RStudio, revealing significant patterns in student loan burdens.",
-      image: "/project2.jpg",
+      image: "/debt_study.png",
       tags: ["R", "Hypothesis Testing", "Statistical Analysis", "Data Visualization", "Summary Statistics"],
       github: "https://github.com/KhawajaAhmed/R_University_Debt_Study",
       demo: "#"
@@ -95,11 +95,19 @@ const ProjectCard = ({ project }: { project: any }) => {
       }}
       transition={{ type: 'spring', stiffness: 300 }}
     >
-      <div className="relative h-48 w-full">
+      <div className="relative h-40 sm:h-48 w-full overflow-hidden">
         {project.title === "Agtech Agricultural Pipeline" ? (
-          <div className="w-full h-full overflow-hidden">
+          <div className="w-full h-full overflow-hidden flex items-center justify-center">
             <img 
               src="/agricultural_dashboard.png"
+              alt={project.title}
+              className="w-full h-full object-cover rounded-t-lg"
+            />
+          </div>
+        ) : project.title === "Statistical Analysis of Graduate Debt" ? (
+          <div className="w-full h-full overflow-hidden flex items-center justify-center">
+            <img 
+              src="/debt_study.png"
               alt={project.title}
               className="w-full h-full object-cover rounded-t-lg"
             />
