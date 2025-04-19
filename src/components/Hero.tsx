@@ -24,8 +24,7 @@ const Hero = () => {
             Computer Science Major & Data Science Minor
           </h2>
           <p className="text-lg mb-8 max-w-xl">
-            I have a strong foundation in AI/ML and a passion for turning messy data into actionable insights. 
-            Seeking full-time roles in Data Engineering, Data Science, or Analytics.
+            I use code, queries and curiosity to turn raw data into real impact.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <Link 
