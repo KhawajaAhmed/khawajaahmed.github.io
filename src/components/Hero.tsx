@@ -21,7 +21,7 @@ const Hero = () => {
             <span className="text-blue-600">Khawaja</span>
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-6">
-            Computer Science Major & Data Science Minor
+            Data Enthusiast
           </h2>
           <p className="text-lg mb-8 max-w-xl">
             I use code, queries and curiosity to turn raw data into real impact.
