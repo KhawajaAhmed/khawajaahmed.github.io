@@ -96,13 +96,47 @@ html {
 }
 
 :root {
-  --background: #ffffff;
+  --background: #f8f9fa;
   --foreground: #171717;
+  --primary: #4361ee;
+  --primary-hover: #3a56d4;
+  --secondary: #ff6b6b;
+  --secondary-hover: #ff5252;
+  --accent: #4cc9f0;
+  --accent-light: #e0f7fa;
+  --card-bg: #ffffff;
+  --card-border: rgba(67, 97, 238, 0.15);
+  --card-hover: #f0f4ff;
+  --section-bg: #f0f4ff;
+  --section-alt-bg: #fff8f8;
+  --text-primary: #2b2d42;
+  --text-secondary: #555b6e;
+  --text-muted: #6c757d;
+  --success: #06d6a0;
+  --warning: #ffd166;
+  --error: #ef476f;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ededed;
+  --primary: #4361ee;
+  --primary-hover: #3a56d4;
+  --secondary: #ff6b6b;
+  --secondary-hover: #ff5252;
+  --accent: #4cc9f0;
+  --accent-light: #102a36;
+  --card-bg: #1a1a1a;
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-hover: #252525;
+  --section-bg: #121212;
+  --section-alt-bg: #151515;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --text-muted: #6c757d;
+  --success: #06d6a0;
+  --warning: #ffd166;
+  --error: #ef476f;
 }
 
 body {
