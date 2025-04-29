@@ -17,6 +17,14 @@ const Projects = () => {
       demo: "https://transportationtimeseriesdatadashboard.netlify.app/"
     },
     {
+      title: "Healthcare Revenue Cycle Management Optimization",
+      description: "Conducted statistical analysis to optimize the revenue cycle management pipeline, identifying $2.4M in potential recapture opportunities and delivering actionable recommendations that reduced claim denials by 22% while improving the overall financial metrics of the healthcare facility.",
+      image: "/healthcare_rcm_dashboard.png",
+      tags: ["Machine Learning", "ETL", "EDA", "Statistical Analysis","Hypothesis Testing","Operational Optimization","Data Visualization","Python", "SQL","Data Analysis"],
+      github: "#",
+      demo: "https://healthcarercmoptimizationanalysis.netlify.app/"
+    },
+    {
       title: "Agtech Agricultural Pipeline",
       description: "Engineered a scalable ETL pipeline that ingested and normalized IoT sensor data from 200+ field devices using Python, SQL, and Apache Airflow, enabling real-time crop yield predictions.",
       image: "/agricultural_dashboard.png",
@@ -38,14 +46,6 @@ const Projects = () => {
       image: "/project3.jpg",
       tags: ["Artificial Intelligence", "Python","Game Development", "Q-Learning"],
       github: "https://github.com/KhawajaAhmed/Nims-RL-Game",
-      demo: "#"
-    },
-    {
-      title: "Healthcare Revenue Pipeline",
-      description: "Architected an Azure based healthcare revenue cycle management data pipeline processing 10K+ daily records, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue.",
-      image: "/project1.jpg",
-      tags: ["Azure", "PySpark", "ETL", "Healthcare Analytics"],
-      github: "#",
       demo: "#"
     },
     {
@@ -108,6 +108,14 @@ const ProjectCard = ({ project }: { project: any }) => {
           <div className="w-full h-full overflow-hidden flex items-center justify-center">
             <img 
               src="/transportation_time_series_data.png"
+              alt={project.title}
+              className="w-full h-full object-cover rounded-t-lg"
+            />
+          </div>
+        ) : project.title === "Healthcare Revenue Cycle Management Optimization" ? (
+          <div className="w-full h-full overflow-hidden flex items-center justify-center">
+            <img 
+              src="/healthcare_rcm_dashboard.png"
               alt={project.title}
               className="w-full h-full object-cover rounded-t-lg"
             />
