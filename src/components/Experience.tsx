@@ -9,8 +9,8 @@ const Experience = () => {
     {
       title: "Data Engineering Intern",
       company: "Stealth AI",
-      period: "Dec 2024 - February 2025",
-      location: "Remote123",
+      period: "Dec 2024 - Feb 2025",
+      location: "Remote",
       description: [
         "Architected an Azure based healthcare revenue cycle management data pipeline processing 10K+ daily records, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue",
         "Established PySpark validation frameworks that flagged 5K+ monthly anomalies, improving downstream analytics reliability by 35%",
