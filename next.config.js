@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Removed 'output: export' to avoid de-optimization warning
+  // Enable static HTML export
+  output: 'export',
   images: {
     unoptimized: true,
     // Adding domains for remote images if needed
@@ -11,7 +12,7 @@ const nextConfig = {
       },
     ],
   },
-  // Adjust this to match your GitHub repository name if not using username.github.io
+  // Uncomment this if you're deploying to a GitHub Pages project site
   // basePath: '/portfolio_3',
 };
 
