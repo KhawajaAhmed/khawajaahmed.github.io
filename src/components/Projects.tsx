@@ -25,6 +25,14 @@ const Projects = () => {
       demo: "https://healthcarercmoptimizationanalysis.netlify.app/"
     },
     {
+      title: "Lyft Driver Supply Optimization",
+      description: "Built an interactive platform using real-time ride-hailing data (92M+ trips) to forecast 30-minute demand with 87% accuracy, uncovering $3.2M/month in missed revenue. ML-driven strategies improved driver-rider matching—boosting market balance by 9%, cutting incentive spend 4%, reducing wait times up to 10%, and increasing driver earnings by 14%.",
+      image: "/lyft_driver_supply_optimization.png",
+      tags: ["Predictive Modeling", "Geospatial Analysis", "Time Series Forecasting", "Supply-Demand Gap", "ML", "A/B Testing", "ROI Analysis", "KPI Development"],
+      github: "#",
+      demo: "https://lyftdriveroptimizationanalysis.netlify.app/"
+    },
+    {
       title: "Agtech Agricultural Pipeline",
       description: "Engineered a scalable ETL pipeline that ingested and normalized IoT sensor data from 200+ field devices using Python, SQL, and Apache Airflow, enabling real-time crop yield predictions.",
       image: "/agricultural_dashboard.png",
@@ -46,22 +54,6 @@ const Projects = () => {
       image: "/project3.jpg",
       tags: ["Artificial Intelligence", "Python","Game Development", "Q-Learning"],
       github: "https://github.com/KhawajaAhmed/Nims-RL-Game",
-      demo: "#"
-    },
-    {
-      title: "Sports Analytics Platform",
-      description: "Built an automated sports analytics platform using Python and pandas that integrated 5+ data sources, delivering insights that improved team performance by 23% across 12+ competitions.",
-      image: "/project4.jpg",
-      tags: ["Python", "pandas", "Sports Analytics", "Data Integration"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Database Query Optimization",
-      description: "Optimized database queries with indexing and partitioning strategies, reducing average query latency from 5s to 300ms and supporting near real-time dashboard visualizations.",
-      image: "/project6.jpg",
-      tags: ["SQL", "Database Optimization", "Indexing", "Partitioning"],
-      github: "#",
       demo: "#"
     }
   ];
@@ -132,6 +124,14 @@ const ProjectCard = ({ project }: { project: any }) => {
           <div className="w-full h-full overflow-hidden flex items-center justify-center">
             <img 
               src="/debt_study.png"
+              alt={project.title}
+              className="w-full h-full object-cover rounded-t-lg"
+            />
+          </div>
+        ) : project.title === "Lyft Driver Supply Optimization" ? (
+          <div className="w-full h-full overflow-hidden flex items-center justify-center">
+            <img 
+              src="/lyft_driver_supply_optimization.png"
               alt={project.title}
               className="w-full h-full object-cover rounded-t-lg"
             />
