@@ -10,25 +10,25 @@ const Experience = () => {
       title: "Data Engineering Intern",
       company: "Stealth AI",
       period: "Dec 2024 - Feb 2025",
-      location: "Remote",
+      location: "San Francisco",
       description: [
-        "Architected an Azure based healthcare revenue cycle management data pipeline processing 10K+ daily records, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue",
-        "Established PySpark validation frameworks that flagged 5K+ monthly anomalies, improving downstream analytics reliability by 35%",
-        "Optimized cloud infrastructure with incremental ETL and dynamic scaling, cutting costs by 20% while maintaining 99.9% SLA for 50K+ daily transactions",
-        "Resolved cross-hospital data inconsistencies using SCD2 dimensional modeling, increasing reporting accuracy by 28%"
+        "Architected an Azure data pipeline processing 10K+ financial transaction records daily, reducing KPI computation time by 40% and identifying $150K+ in recoverable revenue.",
+        "Established PySpark validation frameworks that flagged 5K+ monthly anomalies, improving downstream analytics reliability by 35% for the finance team.",
+        "Optimized cloud infrastructure with incremental ETL and dynamic scaling, cutting cloud costs by 20% while maintaining 99.9% SLA for 50K+ daily patient records.",
+        "Resolved cross-hospital data inconsistencies using SCD2 dimensional modeling, increasing reporting accuracy by 28% and presenting actionable insights to CEO/CTO."
       ],
       skills: ["Azure", "PySpark", "ETL", "Data Pipelines", "Healthcare Analytics"]
     },
     {
-      title: "AI/ML Engineering Intern",
-      company: "Depauw University",
+      title: "Data Analysis & AI Intern",
+      company: "Tenzer Technology Center",
       period: "Feb 2024 - May 2024",
-      location: "Greencastle, Indiana",
+      location: "Chicago",
       description: [
-        "Spearheaded the development of a reinforcement learning system that outperformed baseline models by ~11%",
-        "Designed a memory-efficient training architecture decreasing computational requirements by ~20% while improving model convergence time by 40%",
-        "Implemented CI/CD pipeline with automated testing that reduced deployment time from days to hours, enabling rapid iteration across 3 development cycles",
-        "Delivered critical production fixes that resolved performance bottlenecks, accelerating system response time by 15% under peak loads"
+        "Spearheaded the development of a reinforcement learning system for financial transaction forecasting that outperformed baseline models by ~11%, utilizing RAGAS framework to evaluate the LLM.",
+        "Designed A/B testing frameworks for user experience optimization, resulting in a 22% improvement in Click-through rate and a ~6% decrease in bounce rate",
+        "Implemented CI/CD pipeline with automated testing that reduced deployment time from days to hours, enabling rapid iteration across 3 development cycles.",
+        "Delivered critical production fixes that resolved performance bottlenecks, accelerating system response time by 15% under peak loads."
       ],
       skills: ["Python", "Reinforcement Learning", "CI/CD", "Model Optimization", "Performance Tuning"]
     },
@@ -36,10 +36,10 @@ const Experience = () => {
       title: "Data Science Intern",
       company: "Depauw University",
       period: "Oct 2023 - Jan 2024",
-      location: "Greencastle, Indiana",
+      location: "Greencastle",
       description: [
-        "Built an automated sports analytics platform using Python and pandas that integrated 5+ data sources, delivering insights that improved team performance by 23% across 12+ competitions",
-        "Designed custom ETL & EDA workflows processing 50K+ player statistics daily, reducing analysis latency by 80%",
+        "Built an automated sports analytics platform using Python and pandas that integrated 5+ data sources, delivering insights that improved team performance by 23% across 12+ competitions.",
+        "Designed custom Git-versioned ETL & EDA workflows processing 300+ player statistics daily, reducing analysis latency by 80%.",
         "Developed statistical research for predictive models with 85% accuracy that identified 7 high-potential recruits"
       ],
       skills: ["Python", "pandas", "Sports Analytics", "ETL", "Statistical Modeling"]
