@@ -63,7 +63,7 @@ const Contact = () => {
           <AnimatedItem className="space-y-8" delay={0.2} direction="left">
             <h3 className="text-xl sm:text-2xl font-semibold">Contact Information</h3>
             <p className="text-base sm:text-lg">
-              I'm currently seeking full-time roles or internships in Data Engineering, Data Science, or Analytics where I can continue learning and building impactful systems.
+              I'm currently seeking full-time roles in Data Engineering, Data Science, or Analytics where I can continue learning and building impactful systems.
               Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
             
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-sm sm:text-base">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">khawajaahmed_2025@depauw.edu</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">ahmed.khawaja.hussain@gmail.com</p>
                 </div>
               </div>
               
@@ -89,7 +89,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-sm sm:text-base">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">Greencastle, Indiana</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">New Jersey</p>
                 </div>
               </div>
               
@@ -178,10 +178,10 @@ const Contact = () => {
               <div className="mt-6 text-center">
                 <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base mb-2">Prefer email? You can reach me at:</p>
                 <a 
-                  href="mailto:khawajaahmed_2025@depauw.edu" 
+                  href="mailto:ahmed.khawaja.hussain@gmail.com" 
                   className="font-medium text-blue-600 dark:text-blue-400 hover:underline inline-block transition-all hover:scale-105 text-sm sm:text-base break-all"
                 >
-                  khawajaahmed_2025@depauw.edu
+                  ahmed.khawaja.hussain@gmail.com
                 </a>
               </div>
             </div>
