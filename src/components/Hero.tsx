@@ -29,10 +29,10 @@ const Hero = () => {
               <span className="text-primary dark:text-blue-500">Khawaja</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-text-secondary dark:text-gray-400 mb-6">
-              Data Engineer & Analyst
+              Data Analyst Intern @ Impiricus
             </h2>
             <p className="text-lg mb-8 max-w-xl text-text-primary dark:text-gray-300">
-              I use code, queries and curiosity to turn raw data into real impact. Currently a senior at DePauw University studying Computer Science with a minor in Data Science.
+              I use code, queries and curiosity to turn raw data into real impact. Recently graduated from DePauw University with a BA in Computer Science with a concentration in Data Science.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <Link 
@@ -146,11 +146,11 @@ const Hero = () => {
                 <div className="space-y-4">
                   <div className="border-l-4 border-primary dark:border-blue-600 pl-4">
                     <p className="font-medium">BA in Computer Science</p>
-                    <p className="text-text-secondary dark:text-gray-400">DePauw University, Senior</p>
+                    <p className="text-text-secondary dark:text-gray-400">DePauw University, May 2025</p>
                   </div>
                   <div className="border-l-4 border-primary dark:border-blue-600 pl-4">
                     <p className="font-medium">Minor in Data Science</p>
-                    <p className="text-text-secondary dark:text-gray-400">DePauw University</p>
+                    <p className="text-text-secondary dark:text-gray-400">DePauw University, May 2025</p>
                   </div>
                 </div>
               </div>
